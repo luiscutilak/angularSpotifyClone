@@ -8,7 +8,7 @@ import { LoginRotas } from './login.routes';
 
 @NgModule({
   declarations: [   //declarations always receive components
-    LoginComponent
+    LoginComponent,
   ],
   imports: [      // imports always receive Module
     CommonModule,
