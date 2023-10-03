@@ -1,3 +1,5 @@
+@import 'variaveis';
+
 :host {
   background-color: #222;
   position: absolute; //host does the work of the Div using the total
@@ -18,12 +20,14 @@
   }
 
   button {
+    font-size: 1.5rem;
     min-width: 200px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 500px;
-    background-color: red; //button aligned in the middle of the screen
+    background-color: $cor-primaria; //button aligned in the middle of the screen
     color: white;
     border: 0;
+    cursor: pointer;
   }
 
 }
